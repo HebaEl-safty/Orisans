@@ -7,6 +7,11 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="../assets/stylesheet/bootstrap.css" >
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="../assets/stylesheet/fontawesome-all.css">
+
+  <!-- Style -->
   <link rel="stylesheet" href="../assets/stylesheet/styles.css" >
   <title>Dashboard</title>
 </head>
@@ -18,52 +23,240 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
+      <div class="collapse navbar-collapse justify-content-end notification-username" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="media">
+              <img src="../assets/images/user-img.jpg" class="avatar s-img mr-3" alt="User">
+              <div class="media-body">
+                <a href="#" class="nav-link pt-0 pb-0"><h6 class="mt-0 mb-0 font-weight-bold"> Heba elsafty</h6></a>
+                <small class="text-muted pl-2"> Web designer </small>
+              </div>
+              <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+          <li class="nav-item dropdown notification">
+            <h4><i class="far fa-bell"></i></h4> <span class="badge badge-light">4</span>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
   </header>
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-11">
+        <div class="title mt-5 mb-4 d-flex justify-content-between">
+          <h3 class="font-weight-light">Dashboard</h3>
+          <a href="#" class="btn btn-primary justify-content-end px-3"> <small class="fas fa-plus pr-1 "></small> new page</a>
+        </div>
+        <div class="row online-users mb-3">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <div class="title d-flex justify-content-between mb-4">
+                  <h5 class="">Online User <span class="badge badge-light">4</span></h5>
+                  <small  class="justify-content-end px-3 font-weight-bold"><span class="text-primary">+10%</span> More than yasterday</small>
+                </div>
+                <ul class="nav justify-content-between list-people">
+                  <li class="nav-item">
+                    <div class="media mb-3">
+                      <img src="../assets/images/user-img.jpg" class="avatar s-img " alt="User">
+                      <div class="media-body">
+                        <a href="#" class="nav-link text-dark pt-0 pb-0"><h6 class="mt-2 mb-0 font-weight-bold"> Heba elsafty</h6></a>
+                      </div>
+                      <a class="nav-link text-muted " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="media mb-3">
+                      <img src="../assets/images/user-img.jpg" class="avatar s-img " alt="User">
+                      <div class="media-body">
+                        <a href="#" class="nav-link text-dark pt-0 pb-0"><h6 class="mt-2 mb-0 font-weight-bold"> Heba elsafty</h6></a>
+                      </div>
+                      <a class="nav-link text-muted " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="media mb-3">
+                      <img src="../assets/images/user-img.jpg" class="avatar s-img " alt="User">
+                      <div class="media-body">
+                        <a href="#" class="nav-link text-dark pt-0 pb-0"><h6 class="mt-2 mb-0 font-weight-bold"> Heba elsafty</h6></a>
+                      </div>
+                      <a class="nav-link text-muted " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="media mb-3">
+                      <img src="../assets/images/user-img.jpg" class="avatar s-img " alt="User">
+                      <div class="media-body">
+                        <a href="#" class="nav-link text-dark pt-0 pb-0"><h6 class="mt-2 mb-0 font-weight-bold"> Heba elsafty</h6></a>
+                      </div>
+                      <a class="nav-link text-muted " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="media mb-3">
+                      <img src="../assets/images/user-img.jpg" class="avatar s-img " alt="User">
+                      <div class="media-body">
+                        <a href="#" class="nav-link text-dark pt-0 pb-0"><h6 class="mt-2 mb-0 font-weight-bold"> Heba elsafty</h6></a>
+                      </div>
+                      <a class="nav-link text-muted " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="media mb-3">
+                      <img src="../assets/images/user-img.jpg" class="avatar s-img " alt="User">
+                      <div class="media-body">
+                        <a href="#" class="nav-link text-dark pt-0 pb-0"><h6 class="mt-2 mb-0 font-weight-bold"> Heba elsafty</h6></a>
+                      </div>
+                      <a class="nav-link text-muted " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="media mb-3">
+                      <img src="../assets/images/user-img.jpg" class="avatar s-img " alt="User">
+                      <div class="media-body">
+                        <a href="#" class="nav-link text-dark pt-0 pb-0"><h6 class="mt-2 mb-0 font-weight-bold"> Heba elsafty</h6></a>
+                      </div>
+                      <a class="nav-link text-muted " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="media mb-3">
+                      <img src="../assets/images/user-img.jpg" class="avatar s-img " alt="User">
+                      <div class="media-body">
+                        <a href="#" class="nav-link text-dark pt-0 pb-0"><h6 class="mt-2 mb-0 font-weight-bold"> Heba elsafty</h6></a>
+                      </div>
+                      <a class="nav-link text-muted " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <hr>
+              <div class="text-center mb-3">
+                <small class="font-weight-bold"><a href="#">Click here</a> to see a full list of active user</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="active-page mb-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="title d-flex justify-content-between mb-4">
+                <h5 class="">Active page & drafts </h5>
+                <small  class="justify-content-end px-3 font-weight-bold"><span class="text-primary">one draft</span> left to publish</small>
+              </div>
+              <table class="table list-people">
+                <thead class="text-muted">
+                  <tr>
+                    <th scope="col">Page title</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Views</th>
+                    <th scope="col">Last motifed</th>
+                    <th scope="col">Auther</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr>
+            <div class="text-center mb-3">
+              <small class="font-weight-bold"><a href="#">Click here</a> to see a full list of active user</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-  <button type="button" class="btn btn-primary">Primary</button>
-  <button type="button" class="btn btn-secondary">Secondary</button>
-  <button type="button" class="btn btn-success">Success</button>
-  <button type="button" class="btn btn-danger">Danger</button>
-  <button type="button" class="btn btn-warning">Warning</button>
-  <button type="button" class="btn btn-info">Info</button>
-  <button type="button" class="btn btn-light">Light</button>
-  <button type="button" class="btn btn-dark">Dark</button>
-
-  <button type="button" class="btn btn-link">Link</button>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="../assets/js/jquery-3.2.1.slim.min.js" ></script>
+  <script src="../assets/js/popper.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
 </body>
 </html>

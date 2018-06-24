@@ -1,0 +1,53 @@
+@import "fonts";
+
+// imges sizes
+img{
+  object-fit: cover;
+}
+img.avatar{
+  border-radius: 50%;
+}
+img.logo{
+  width: 70%;
+  max-width: 70%;
+}
+.s-img{
+  width: 30px;
+  height: 30px;
+  max-width: 30px;
+}
+
+// header
+header{
+  .notification-username{
+    li{
+      border-left: 1px solid #f8f9fa;
+      padding: 0 15px;
+    }
+  }
+  .notification{
+    position: relative;
+    .badge{
+      position: absolute;
+      top: -7px;
+      right: 10px;
+      border-radius: 50%;
+    }
+  }
+}
+
+
+// NAv
+.list-people{
+  max-height: 160px;
+  height: 155px;
+  overflow-y: scroll;
+}
+
+// Table
+.table{
+  th,td{
+    border-bottom: none;
+    border-top: none;
+  }
+}
