@@ -57,12 +57,15 @@ header{
 }
 
 // Button
-.btn{
-  font-size: 0.8rem;
+// .btn{
+//   font-size: 0.8rem;
+// }
+.btn-sm, .btn-group-sm > .btn{
+  padding: 0.25rem 1rem;
 }
 .btn-secondary {
+  color: white;
+  &:hover,&:active,&:focus{
     color: white;
-    &:hover,&:active,&:focus{
-      color: white;
-    }
+  }
 }

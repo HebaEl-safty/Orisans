@@ -433,7 +433,7 @@ kbd {
   font-size: 87.5%;
   color: #fff;
   background-color: #001d2f;
-  border-radius: 0.2rem; }
+  border-radius: 8rem; }
   kbd kbd {
     padding: 0;
     font-size: 100%;
@@ -1662,7 +1662,7 @@ select.form-control:focus::-ms-value {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
-  border-radius: 0.2rem; }
+  border-radius: 8rem; }
 
 select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.form-control:not([size]):not([multiple]),
 .input-group-sm > .input-group-prepend > select.input-group-text:not([size]):not([multiple]),
@@ -2454,7 +2454,7 @@ fieldset:disabled a.btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
-  border-radius: 0.2rem; }
+  border-radius: 8rem; }
 
 .btn-block {
   display: block;
@@ -3912,12 +3912,12 @@ input[type="button"].btn-block {
   line-height: 1.5; }
 
 .pagination-sm .page-item:first-child .page-link {
-  border-top-left-radius: 0.2rem;
-  border-bottom-left-radius: 0.2rem; }
+  border-top-left-radius: 8rem;
+  border-bottom-left-radius: 8rem; }
 
 .pagination-sm .page-item:last-child .page-link {
-  border-top-right-radius: 0.2rem;
-  border-bottom-right-radius: 0.2rem; }
+  border-top-right-radius: 8rem;
+  border-bottom-right-radius: 8rem; }
 
 .badge {
   display: inline-block;
