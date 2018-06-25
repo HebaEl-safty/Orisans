@@ -1,5 +1,9 @@
 @import "fonts";
 
+
+// body{
+//   font-size: 12px;
+// }
 // imges sizes
 img{
   object-fit: cover;
@@ -50,4 +54,15 @@ header{
     border-bottom: none;
     border-top: none;
   }
+}
+
+// Button
+.btn{
+  font-size: 0.8rem;
+}
+.btn-secondary {
+    color: white;
+    &:hover,&:active,&:focus{
+      color: white;
+    }
 }
